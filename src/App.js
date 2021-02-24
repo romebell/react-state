@@ -7,8 +7,11 @@ function App() {
   return (
    <div>
      <MoodTracker />
+     <hr/>
      <Person />
+     <hr/>
      <Parent />
+     <hr/>
    </div>
   );
 }

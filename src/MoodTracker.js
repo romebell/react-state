@@ -6,9 +6,17 @@ class MoodTracker extends Component {
     }
 
     increaseMood = () => {
-        this.setState({
-            moodPoints: this.state.moodPoints + 1
-        })
+        let newMood;
+        if (this.state.moodPoints >= 5) {
+            newMood = 100;
+            this.setState({
+                moodPoints: newMood
+            })
+        } else {
+            this.setState({
+                moodPoints: this.state.moodPoints + 1
+            });
+        }
     }
 
     render() {
