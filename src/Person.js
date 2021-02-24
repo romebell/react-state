@@ -10,7 +10,6 @@ class Person extends Component {
 
 
     render() {
-        
         return (
         <div>
             <h2>{this.props.info.name}</h2>
