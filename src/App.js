@@ -1,12 +1,11 @@
-import logo from './logo.svg';
 import './App.css';
 import Person from './Person';
+import MoodTracker from './MoodTracker';
 
 function App() {
-  const obj = { name: 'Jimmy'};
   return (
    <div>
-      <Person info={obj} />
+     <MoodTracker />
    </div>
   );
 }

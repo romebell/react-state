@@ -10,13 +10,12 @@ class Person extends Component {
 
 
     render() {
-        this.props.info.name = 'Robbie'
+        
         return (
         <div>
             <h2>{this.props.info.name}</h2>
             <p>{this.state.city}</p>
             <p>{this.state.college}</p>
-
         </div>
         )
     }
